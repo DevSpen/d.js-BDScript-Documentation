@@ -1,5 +1,4 @@
-Introduction
-# Getting Started
+# Introduction
 d.js-BDScript is a cross between Bot Designer For Discord and discord.js. This language was developed for people who want to create easily create advanced bots. It has the flexibility of discord.js and the simplicity of BDScript functions. 
 
 ## Install
