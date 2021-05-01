@@ -5,6 +5,6 @@ You can find the documentation [here](https://djsbdscript.gitbook.io/docs/). Thi
 The documentation uses `md` files, which uses a simple markdown formatting system. [Click here](https://guides.github.com/features/mastering-markdown/) for a full guide. If you would like to contribute simply make a pull request with your contribution file(s). You can make more than one pull request!
 
 ## Links
-- [Package](bit.ly/djs-bdscript)
+- [Package](https://bit.ly/djs-bdscript)
 - [Server](https://discord.gg/v7rG7Dsc)
 - [Documentation Website](https://djsbdscript.gitbook.io/docs/)
