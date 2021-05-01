@@ -38,8 +38,6 @@ This makes sure the package is updated and ready to go. If your getting errors f
 
 nvm install --lts &&
 nvm use --lts
-Yuzu — Yesterday at 6:52 PM
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 ```
 
 ## Getting Your Bot Online
