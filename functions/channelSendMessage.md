@@ -15,4 +15,5 @@ bot.command({
     type: "command",
     name: "send-message",
     code: `$channelSendMessage[837405770051223562;Hi!]`
-})```
+})
+```
