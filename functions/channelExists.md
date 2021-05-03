@@ -6,7 +6,7 @@ Checks if the given channel ID exists in the Server.
 
 `$channelExists[channel_id]`
 
-If the given channel ID exists, it wi return `true`. And if the given channel ID isn't existed, it will return false.
+If the given channel ID exists, it will return `true`. And if the given channel ID isn't existed, it will return false.
 
 ***Example***
 
