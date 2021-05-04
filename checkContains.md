@@ -1,24 +1,19 @@
 # $checkContains
-Check if the Message contains of the given Word. It will return "true" if the given Text contains the given Word. And it will return "false" if it doesn't contains it.
-
-
+Checks if the message contains of the given word(s). The bot will return "true" if the text contains atleast one of the provided words. The bot will return "false" it doesn't.
 
 ## Usage
-`$checkContains[text;words]`
-
-
+```$checkContains[text;word(s)]```
 
 ### Breakdown
 `text` - The Text that you want to check if the Text contains of the given Word.
 
-`words` - The Word that you want to check if the Text contains it.
-
-
+`word(s)` - The word or words to check, arguments separated by `;`.
 
 ## Example
-```bot.command({
+```
+bot.command({
  type: "command",
  name: "check-contains"
- code: `Does the Word contains Dog?: $checkContains[$message;Dog]`
+ code: `Does your message contain "dog"?: $checkContains[$message;dog]`
  })
 ````
