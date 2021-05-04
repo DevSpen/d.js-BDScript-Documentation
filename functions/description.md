@@ -1,18 +1,17 @@
 # $description
-Sets a Discord Embed Description.
-
+Sets a description for the embed.
 
 ## Usage
 `$description[text]`
 
-
 ### Breakdown
-`text` - The text that you want to put on your Discord Embed Description.
-
+`text` - The text that appears in the description.
 
 ## Example
-```bot.command({
+```
+bot.command({
  type: "command",
  name: "description",
- code: `$description[Hi! This is just an example.]`
- })````
+ code: `$description[Hi! This is an example.]`
+ })
+ ```
