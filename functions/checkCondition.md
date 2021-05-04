@@ -16,7 +16,7 @@ Then it would return "false" if someone named Spen used the command, otherwise i
 
 != - Must be not equal 
 
-< Must be less than (only numbers) 
+< - Must be less than (only numbers) 
 
 \> - Must be greater than (only numbers) 
 
