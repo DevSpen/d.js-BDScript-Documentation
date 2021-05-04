@@ -24,6 +24,7 @@ Creates a emoji.
 `roles` - Role to whitelist. Can be multiple by separating `;`.
 
 ## Example
+Without optional fields:
 ```
 bot.command({
     type: "command",
@@ -33,7 +34,7 @@ bot.command({
 })
 ```
 
-With optional fields,
+With optional fields:
 ```
 bot.command({
     type: 'command',
