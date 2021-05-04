@@ -43,6 +43,6 @@ With optional fields,
 bot.command({
     type: 'command',
     name: 'create-channel',
-    code: `$createChannel[$guildID;general;text;$categoryID;1;no;This is the public channel.;no]
+    code: `$createChannel[$guildID;general;text;$channelCategoryID;1;no;This is the public channel.;no]
     Channel created.
 })
