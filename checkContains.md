@@ -20,4 +20,4 @@ Check if the Message contains of the given Word. It will return "true" if the gi
  type: "command",
  name: "check-contains"
  code: `Does the Word contains Dog?: $checkContains[$message;Dog]`
- })````
+ })```
