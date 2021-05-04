@@ -8,7 +8,7 @@ Returns the logged client's ID.
 ```
 bot.command({
     type: "command",
-    name: "check-condition",
+    name: "clientid",
     code: `My ID is $clientID.
     `
 })
