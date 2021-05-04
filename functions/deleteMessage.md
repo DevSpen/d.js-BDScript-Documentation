@@ -14,10 +14,8 @@ Deletes the message provided.
 bot.command({
    type: "command"
    name: "test"
-   code: `$deleteMessage[837400203878596651;839088754441453578] //Deletes the message 839088754441453578 from the channel 837400203878596651
+   code: `$deleteMessage[837400203878596651;839088754441453578]
            Deleted the message!`
 })
 ```
-
-### Notices
-[Info Msg] You can use multiple `$deleteMessage` in one command.
+[Tip Msg] You can use multiple `$deleteMessage` in one command.
