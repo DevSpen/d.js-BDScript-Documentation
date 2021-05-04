@@ -1,5 +1,5 @@
 # $checkContains
-Checks if the message contains of the given word(s). The bot will return "true" if the text contains atleast one of the provided words. The bot will return "false" it doesn't.
+Checks if the text contains of the given word(s). The bot will return "true" if the text contains atleast one of the provided words. The bot will return "false" it doesn't.
 
 ## Usage
 ```$checkContains[text;word(s)]```
