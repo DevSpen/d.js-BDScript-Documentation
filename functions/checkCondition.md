@@ -1,10 +1,10 @@
 # $checkCondition
-Simply put, $checkCondition serves as a way to make a true or false statement. For example:
+ `$checkCondition` serves as a way to make a true or false statement.
 
 Example: `$checkCondition[$username==Spen]`
 The bot would return "true" if someone named Spen used the command, otherwise it would return "false".
 
-However, if I made $checkCondition say this: $checkCondition[$username!=Spen] 
+However, if you made $checkCondition like this: `$checkCondition[$username!=Spen] `
 Then it would return "false" if someone named Spen used the command, otherwise it would return "true".
 
 ## Usage
