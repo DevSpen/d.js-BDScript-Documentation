@@ -1,19 +1,17 @@
 # $createChannel
-Creates a channel in a guild, you can leave empty not needed fields.
+Creates a channel in a guild, non required fields can be left empty.
 
 ## Usage
-```$createChannel[guild ID;name;type;category ID;position;nsfw (yes/no);topic message;reason;returnChannelID (yes/no)]```
+```$createChannel[guild ID;name;type;category ID;position;nsfw (yes/no);topic;reason;returnChannelID (yes/no)]```
 
 ### Breakdown
-
-Required Fiels:
+#### Required Fields:
 
 `guild ID` - The guild to create this channel in.
 
 `name` - The name for the channel.
 
-
-Optional Fields:
+#### Optional Fields:
 
 `type` - The type for the channel. Default is `text`.
 
@@ -33,16 +31,15 @@ bot.command({
     type: "command",
     name: "channel-create",
     code: `$createChannel[$guildID;general]
-    Channel created.
-    `
+    Channel created.`
 })
 ```
 
 With optional fields,
 ```
 bot.command({
-    type: 'command',
-    name: 'create-channel',
+    type: "command",
+    name: "create-channel",
     code: `$createChannel[$guildID;general;text;$channelCategoryID;1;no;This is the public channel.;no]
-    Channel created.
+    Channel created.`
 })
