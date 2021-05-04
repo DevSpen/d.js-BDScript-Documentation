@@ -1,17 +1,17 @@
-***$channelExists***
+# $channelExists
+Checks whether or not the given channel exists. Returns "true" if it exists, returns "false" if it doesn't.
 
-Checks if the given channel ID exists in the Server.
+## Usage
+```$channelExists[channelID]```
 
-***Usage***
+### Breakdown
+`channelID` - The channel which the bot checks.
 
-`$channelExists[channel_id]`
-
-If the given channel ID exists, it will return `true`. And if the given channel ID isn't existed, it will return false.
-
-***Example***
-
-```bot.command({
-   type: "command"
-   name: "channelexists",
-   code: "$channelExists[$message[1]]"
-   })```
+## Example
+```
+bot.command({
+    type: "command",
+    name: "channel-exists",
+    code: `Channel Exists? $channelExists[$message]`
+})
+````
