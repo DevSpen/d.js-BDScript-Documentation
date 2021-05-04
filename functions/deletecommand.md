@@ -1,14 +1,14 @@
 # $deletecommand
-Deletes the User's message.
-
+Deletes the author's message.
 
 ## Usage
-`$deletecommand`
-
+```$deletecommand```
 
 ## Example
-```bot.command({
+```
+bot.command({
  type: "command",
  name: "delete"
  code: `$deletecommand`
- })````
+ })
+ ```
