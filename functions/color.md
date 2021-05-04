@@ -1,19 +1,20 @@
 # $color
-Set an Embed color.
+Sets an embed's border color.
 
 ## Usage
-```$color[int|hex]```
+```$color[int of hex]```
 
 ### Breakdown
-`int|hex` - The `int` or `hex` for the color.
+`int or hex` - The `int` or `hex` for the color.
 
 ## Example
 ```
 bot.command({
     type: "command",
-    name: "check-condition",
+    name: "color-example",
     code: `$description[I'm cute.]
     $color[ff57e0]
     `
 })
 ```
+[Info Msg] Find color hexes [here](https://htmlcolorcodes.com)
