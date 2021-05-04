@@ -1,23 +1,23 @@
 # $createEmoji
-Creates a Emoji in a guild.
+Creates a emoji.
 
 ## Usage
 ```$createEmoji[guild ID;name;url;reason;returnEmoji (yes/no);role]```
 
 ### Breakdown
 
-Required Fiels:
+#### Required Fields:
 
-`guild ID` - The guild to create the emoji on.
+`guild ID` - The server to create the emoji in.
 
 `name` - The name for the emoji.
 
-`url` - The url for the emoji.
+`url` - The image URL for the emoji.
 
 
-Optional Fields:
+#### Optional Fields:
 
-`reason` - The reason for creating this emoji.
+`reason` - The reason for creating this emoji (for the audit log)
 
 `returnEmoji` - Whether to return the created emoji. Default is `yes`.
 
@@ -28,9 +28,8 @@ Optional Fields:
 bot.command({
     type: "command",
     name: "emoji-create",
-    code: `New Emoji has been created.
-    $createEmoji[$guildID;laugh;https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/google/274/rolling-on-the-floor-laughing_1f923.png].
-    `
+    code: `New emoji has been created. 
+    $createEmoji[$guildID;laugh;https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/google/274/rolling-on-the-floor-laughing_1f923.png].`
 })
 ```
 
@@ -39,5 +38,5 @@ With optional fields,
 bot.command({
     type: 'command',
     name: 'create-channel',
-    code: `New Emoji $createEmoji[$guildID;laugh;https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/google/274/rolling-on-the-floor-laughing_1f923.png;New laugh emoji;yes;$guildID]
+    code: `New emoji $createEmoji[$guildID;laugh;https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/320/google/274/rolling-on-the-floor-laughing_1f923.png;New laugh emoji;yes;$guildID]
 })
