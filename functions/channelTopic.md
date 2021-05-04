@@ -5,7 +5,7 @@ Returns the channel Topic.
 ```$channelTopic[channelID (optional)]```
 
 ### Breakdown
-`channelID` - The channel which the bot checks.
+`channelID` - The channel which the bot return's the channel topic for. If this field is left empty, it returns the channel topic of the current channel.
 
 ## Example
 ```
