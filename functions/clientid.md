@@ -1,14 +1,15 @@
 # $clientID
-Gets the Bot's Client ID.
+Gets the Bot's client ID.
 
 
 ## Usage
-`$clientID`
-
+````$clientID````
 
 ## Example
-```bot.command({
+```
+bot.command({
  type: "command"
  name: "clientid",
- code: `Here's my Client ID: $clientID`
- })````
+ code: `Here's my ID: $clientID`
+ })
+ ```
