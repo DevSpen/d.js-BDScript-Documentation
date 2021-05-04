@@ -12,6 +12,6 @@ Gets the type of the channel.
 bot.command({
     type: "command",
     name: "channel-type",
-    code: `This channel is $channelTopic[839024362673668117].`
+    code: `This channel is a $channelType[839024362673668117] channel.`
 })
 ````
