@@ -13,8 +13,7 @@ bot.command({
     type: "command",
     name: "color-example",
     code: `$description[I'm cute.]
-    $color[ff57e0]
-    `
+    $color[ff57e0]`
 })
 ```
 [Info Msg] Find color hexes [here](https://htmlcolorcodes.com)
