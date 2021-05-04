@@ -26,6 +26,7 @@ Creates a channel in a guild, non required fields can be left empty.
 `returnChannelID` - Whether to return the created channel's ID. Default is `no`.
 
 ## Example
+Without optional fields:
 ```
 bot.command({
     type: "command",
@@ -35,7 +36,7 @@ bot.command({
 })
 ```
 
-With optional fields,
+With optional fields:
 ```
 bot.command({
     type: "command",
