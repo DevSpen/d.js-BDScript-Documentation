@@ -1,5 +1,5 @@
 # $color
-Sets an embed's border color.
+Sets the embed's border color.
 
 ## Usage
 ```$color[int of hex]```
@@ -16,4 +16,4 @@ bot.command({
     $color[ff57e0]`
 })
 ```
-[Info Msg] Find color hexes [here](https://htmlcolorcodes.com)
+[Info Msg] Find color hexes [here](https://htmlcolorcodes.com)!
