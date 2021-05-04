@@ -9,8 +9,10 @@ Sets a title for the embed.
 `text` - The text that appears in the title.
 
 ## Example:
-```bot.command({
+```
+bot.command({
  type: "command",
  name: "title",
  code: `$title[Hi! This is an example.]`
-})````
+})
+```
