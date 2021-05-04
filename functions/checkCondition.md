@@ -13,14 +13,14 @@ Then it would return "false" if someone named Spen used the command, otherwise i
 ### Whats Sign?
 • Replace (sign) with one of these.
 
-== - Must be equal 
+`==` - Must be equal 
 
-!= - Must be not equal 
+`!=` - Must be not equal 
 
-< - Must be less than (only numbers) 
+`<` - Must be less than (only numbers) 
 
-\> - Must be greater than (only numbers) 
+`>` - Must be greater than (only numbers) 
 
-=> - Must be greater than or equal to (only numbers) 
+`=>` - Must be greater than or equal to (only numbers) 
 
-<= - Must be less than or equal to (only numbers) 
+`<=` - Must be less than or equal to (only numbers) 
