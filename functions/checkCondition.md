@@ -11,7 +11,8 @@ Then it would return "false" if someone named Spen used the command, otherwise i
 ```$checkCondition[value(sign)value] ```
 
 ### Whats Sign?
-• Replace (sign) with one of these 
+• Replace (sign) with one of these.
+
 == - Must be equal 
 
 != - Must be not equal 
