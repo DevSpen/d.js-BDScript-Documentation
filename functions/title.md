@@ -1,5 +1,5 @@
 # $title
-Sets a Embed Title.
+Sets a Discord Embed Title.
 
 
 ## Usage
@@ -7,7 +7,7 @@ Sets a Embed Title.
 
 
 ### Breakdown
-`text` - The Text that you want to put on Embed Title.
+`text` - The Text that you want to put on your Discord Embed Title.
 
 
 ## Example:
