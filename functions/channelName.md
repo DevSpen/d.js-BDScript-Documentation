@@ -14,5 +14,5 @@ Gets the Name of the Given Channel ID.
 ```bot.command({
  type: "command",
  name: "channel-name",
- code: "The Channel Name of $message: $channelName[$message]
+ code: `The Channel Name of $message: $channelName[$message]`
  })````
