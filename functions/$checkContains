@@ -12,10 +12,9 @@ Check if the Message contains of the given Word. It will return "true" if the gi
 `words` - The Word that you want to check if the Text contains it.
 
 
-## Example
+#### Example
 ```bot.command({
  type: "command",
  name: "check-contains"
  code: `Does the Word contains Dog?: $checkContains[$message;Dog]`
- })
-````
+ })````
