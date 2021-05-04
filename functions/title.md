@@ -1,18 +1,16 @@
 # $title
-Sets a Discord Embed Title.
+Sets a title for the embed.
 
 
 ## Usage
-`$title[text]`
-
+```$title[text]```
 
 ### Breakdown
-`text` - The Text that you want to put on your Discord Embed Title.
-
+`text` - The text that appears in the title.
 
 ## Example:
 ```bot.command({
  type: "command",
  name: "title",
- code: `$title[Hi! This is just an example.]`
+ code: `$title[Hi! This is an example.]`
 })````
