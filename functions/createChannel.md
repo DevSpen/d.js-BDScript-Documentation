@@ -7,7 +7,7 @@ Creates a channel in a guild, non required fields can be left empty.
 ### Breakdown
 #### Required Fields:
 
-`guild ID` - The guild to create this channel in.
+`guild ID` - The server to create this channel in. Use `$guildID` for the current server.
 
 `name` - The name for the channel.
 
@@ -43,3 +43,4 @@ bot.command({
     code: `$createChannel[$guildID;general;text;$channelCategoryID;1;no;This is the public channel.;no]
     Channel created.`
 })
+```
