@@ -10,7 +10,8 @@ bot.command({
     type: "command",
     name: "check-condition",
     code: `$clearEmbed
-    $description[nya] //Embeds will not be delivered as response.
-    `
-})
+    $description[nya]
+    Hi!`})
 ```
+
+{old.vers}
