@@ -1,15 +1,14 @@
 # $dateStamp
-Returns current date since 1970 in ms.
-
+Returns current date since 1970 in milliseconds (ms).
 
 ## Usage
-`$dateStamp`
-
+```$dateStamp```
 
 ## Example
-```bot.command({
+```
+bot.command({
  type: "command",
  name: "date",
- code: `$description[Check the date below!]
-$dateStamp`
- })````
+ code: `$dateStamp ms`
+ })
+ ```
