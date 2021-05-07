@@ -13,7 +13,7 @@ Fetches all the members from the given server. Requires 'guild members' intent.
 ```
 bot.command({
     type: "command",
-    name: "execute",
+    name: "members",
     code: `
     Members: $fetchGuildMembers //The result may not be stable if the server has more than hundred members.
     `
