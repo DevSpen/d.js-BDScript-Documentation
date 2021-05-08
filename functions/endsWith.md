@@ -1,14 +1,13 @@
 # $endsWith
-Checks whether a string ends with a given text.
+Checks whether a string ends with the given text.
 
 ## Usage
-```$endsWith[message;text]```
+```$endsWith[string;text]```
 
 ### Breakdown
+`string` - The message to check.
 
-`message` - The message to check.
-
-`text` - The text to check if the `message` ends with text.
+`text` - The text to check if the `string` ends with it.
 
 
 ## Example
@@ -16,9 +15,6 @@ Checks whether a string ends with a given text.
 bot.command({
     type: "command",
     name: "endsWith",
-    code: `
-    Does 'D.js-BDscript is awesome' ends with 'awesome'? 
-    $endsWith[D.js-BDscript is awesome;awesome] //Returns 'true'.
-    `
+    code: `$endsWith[D.js-BDscript is awesome;awesome]`
 })
 ```
