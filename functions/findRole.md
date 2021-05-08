@@ -7,7 +7,7 @@ Finds a given role name, ID or mention in a server.
 ### Breakdown
 `guild ID` - The server to find the role in. Use `$guildID` for the current server.
 
-`role` - The role `name`, `ID` or `mention` to find.
+`role` - The role name, ID or mention to find.
 
 ## Example
 ```
