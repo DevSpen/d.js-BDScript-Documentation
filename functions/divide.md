@@ -1,13 +1,11 @@
 # $divide
-Divides numbers
+Divides the provided numbers.
 
 ## Usage
-```$divide[value1;value2]```
-
+```$divide[numbers]```
 
 ### Breakdown
-
-`value1 / value2` - The numbers to divide.
+`numbers` - Number(s) to divide, separated by `;`.
 
 
 ## Example
@@ -15,7 +13,7 @@ Divides numbers
 bot.command({
     type: "command",
     name: "divide",
-    code: `
-    30 / 5 = $divide[30;5]
-    `
+    code: $divide[$message[1];$message[2]]
+    $onlyIf[$argCount==2;Please use this format: !divide (number1) (number2)]
 })`
+```
