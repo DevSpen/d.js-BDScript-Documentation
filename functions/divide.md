@@ -13,7 +13,7 @@ Divides the provided numbers.
 bot.command({
     type: "command",
     name: "divide",
-    code: $divide[$message[1];$message[2]]
-    $onlyIf[$argCount==2;Please use this format: !divide (number1) (number2)]
-})`
+    code: `$divide[$message[1];$message[2]]
+    $onlyIf[$argCount==2;Please use this format: !divide (number1) (number2)]`
+})
 ```
