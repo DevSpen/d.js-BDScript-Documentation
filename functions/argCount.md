@@ -11,7 +11,7 @@ $argCount[text]
 bot.command({
     type: "command",
     name: "example",
-    code: `$argCount[Hello! How are you?]
+    code: `$argCount[Hello! How are you?]`
     // Would return '4'
 })
 ```
