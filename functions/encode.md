@@ -12,4 +12,4 @@ $encode[link]
 #### What Is 'Encoding'?
 Encoding converts special characters to URL-friendly text. 
 
-For example, `https://this is a random link!.com` becomes `https://this%20is%20a%20random%20link!.com`.
+For example, `https://this is a random link.com` becomes `https://this%20is%20a%20random%20link.com`.
