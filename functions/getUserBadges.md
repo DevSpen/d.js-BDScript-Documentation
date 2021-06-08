@@ -1,24 +1,23 @@
 # $getUserBadges
-Displays all the badges of an user. 
+Displays all the badges for a certain user.
 
 ## Usage 
 `$getUserBadges[userID;separator]`
 
 ### Breakdown 
-`userID` - ID of the user who's badges has to be displayed.
+`userID` - The ID of the user who's badges are being displayed.
 
-`separator` - Symbol or text the output has to be split with.
+`separator` - The character(s) to split the different badge names with.
 
 ## Example
-```
+```js
 bot.command({
     type:"command"
     name:"badges"
-    code:`
-$getUserBadges // returns authors badges
-//or
-$getUserBadges[739591551155437654;,]
-`
+    code: `$getUserBadges // Returns authors badges.
+// Or
+$getUserBadges[739591551155437654;,] // Returns the provided user's badges.`
 })
 ```
-[WarningMsg] This function will display every badge except for nitro badges. All badges displayable is listed [here](https://discord.com/developers/docs/resources/user#user-object-user-flags)
+[WarningMsg] This function will display every badge except for Boosting/Nitro badges. All badges displayable are listed [here](https://discord.com/developers/docs/resources/user#user-object-user-flags).
+
