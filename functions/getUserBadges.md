@@ -12,8 +12,8 @@ Displays all the badges for a certain user.
 ## Example
 ```js
 bot.command({
-    type:"command"
-    name:"badges"
+    type: "command",
+    name: "badges",
     code: `$getUserBadges // Returns authors badges.
 // Or
 $getUserBadges[739591551155437654;,] // Returns the provided user's badges.`
