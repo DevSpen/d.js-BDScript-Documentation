@@ -6,5 +6,5 @@ The documentation uses `md` files, which uses a simple markdown formatting syste
 
 ## Links
 - [Package](https://bit.ly/djs-bdscript)
-- [Server](https://discord.gg/v7rG7Dsc)
+- [Server](https://dsc.gg/d.js-bdscript)
 - [Documentation Website](https://djs-bdscript.gitbook.io/docs/)
