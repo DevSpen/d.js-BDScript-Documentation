@@ -16,7 +16,7 @@ $isManageable
 ```
 $isManageable[guildID;userID]
 ```
-> Returns whether or not the inputted user is manageanble, in the provided server.
+> Returns whether or not the inputted user is manageable, in the provided server.
 
 ## Example
 ```js
