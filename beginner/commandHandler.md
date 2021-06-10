@@ -1,4 +1,6 @@
 # Command Handler
+## What Is "Command Handler"?
+Command Handler can be used for organizing your bot's commands. Although recommended, its 100% optional.  
 
 ## Setup
 In order to use the command handler, you must add the following code to your main file.
