@@ -8,7 +8,7 @@ $isServerDeafened[guildID;userID]
 ```
 > You can also use just `$isDeafened` without any fields, to return data from the author in the current server.
 
-## Breakdown
+### Breakdown
 `guildID` - The server to get the data from.
 
 `userID` - The user to get the data for.
