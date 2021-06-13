@@ -1,5 +1,5 @@
 # Song Properties
-All available properties for songs. For functions like [$songInfo](https://djs-bdscript.gitbook.io/docs/songinfo).
+All available properties for songs, for functions like [$songInfo](https://djs-bdscript.gitbook.io/docs/songinfo).
 
 - `author` - The author of the song.
 - `duration` - How long the song is.
