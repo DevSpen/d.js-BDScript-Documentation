@@ -1,5 +1,6 @@
 # $isValidHex
 Checks whether or not the provided [color hex](https://htmlcolorcodes.com/color-picker) is valid.
+> 'true' means the color hex is valid, 'false' means it isn't.
 
 ## Usage
 ```
