@@ -1,5 +1,5 @@
 # $isHoisted
-Returns whether or not a role is displayed-seprately (hoisted). 
+Returns whether or not a role is displayed-separately (hoisted). 
 
 ![image](https://user-images.githubusercontent.com/69215413/121823023-9a2d5e00-cc70-11eb-99b7-dfc3cec356a6.png)
 
