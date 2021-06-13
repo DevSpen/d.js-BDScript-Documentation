@@ -1,5 +1,6 @@
 # $isSpeaking
 Returns whether or not the user is currently speaking. A boolean if the information is available (aka the bot is connected to any voice channel in the server), otherwise this is null.
+> 'true' means the user is speaking, 'false' means the user isn't.
 
 ## Usage
 ```
