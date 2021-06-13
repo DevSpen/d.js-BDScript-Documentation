@@ -1,5 +1,6 @@
 # $isVideoOn
 Returns whether or not a user has their video enabled in VC.
+> 'true' means the user's video is on, 'false' means its off.
 
 ## Usage
 ```
