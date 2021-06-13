@@ -5,7 +5,7 @@ Returns whether or not a user is self-muted.
 
 > Self-muted is when the user has muted themselves intentionally.
 
-### Usage
+## Usage
 ```
 $isSelfMuted[guildID;userID]
 ```
