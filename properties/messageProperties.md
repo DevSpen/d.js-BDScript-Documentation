@@ -1,5 +1,5 @@
 ## Message Properties
-All available properties for messages. For functions like [$getMessage](https://djs-bdscript.gitbook.io/docs/getmessage).
+All available properties for messages, for functions like [$getMessage](https://djs-bdscript.gitbook.io/docs/getmessage).
 
 - `attachment` - The message attachment URL.
 - `author` - The embed author text.
