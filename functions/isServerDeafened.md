@@ -5,7 +5,7 @@ Returns whether or not a user is server-deafened.
 
 > Server-deafened is when the user is forced deafened in VC by a server admin/staff.
 
-## Usage
+### Usage
 ```
 $isServerDeafened[guildID;userID]
 ```
