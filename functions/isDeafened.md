@@ -2,9 +2,9 @@
 Returns whether or not a user is deafened. Applies to both self and server deafen.
 > 'true' means the user is deafened, 'false' means the user isn't.
 
-### Usage
+## Usage
 ```
-$isServerDeafened[guildID;userID]
+$isDeafened[guildID;userID]
 ```
 > You can also use just `$isDeafened` without any fields, to return data from the author in the current server.
 
