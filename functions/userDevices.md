@@ -1,7 +1,7 @@
 # $userDevices
 Returns what device(s) the user is on.
 
-What are the possible responses?
+### What are the possible responses?
 
 [Page:User Devices](https://djs-bdscript.gitbook.io/docs/properties/device-types)
 
