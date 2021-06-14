@@ -1,5 +1,5 @@
 # $usersInChannel
-Returns a list of users that are currently in the provided voice channnel.
+Returns a list of users that are currently in the provided voice channel.
 
 ## Usage
 ```
