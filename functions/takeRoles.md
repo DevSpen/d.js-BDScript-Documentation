@@ -14,7 +14,7 @@ Removes role(s) from an user in a certain server.
 `roles` - The ID(s) of the role(s) you want to take from the user, separated by `;`.
 
 ## Example
-```
+```js
 bot.command({
  type: "command",
  name: "remove-role",
