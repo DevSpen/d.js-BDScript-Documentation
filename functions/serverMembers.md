@@ -17,7 +17,7 @@ $serverMembers[guildID;option;(optional) separator;(optional) includeBots (yes/n
 
 `includeBots` - Whether to include bots or not. Default is `yes`.
 
-### Breakdown
+## Example
 ```js
 bot.command({
     type: "command",
