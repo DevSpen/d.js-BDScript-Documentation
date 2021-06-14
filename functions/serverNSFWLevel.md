@@ -1,6 +1,9 @@
 # $serverNSFWLevel
 Returns the NSFW level of a server.
 
+### What are the available server NSFW levels?
+[PAGE:Server NSFW Types]()
+
 ## Usage
 ```
 $serverNSFWLevel[(optional) guildID]
@@ -8,12 +11,6 @@ $serverNSFWLevel[(optional) guildID]
 
 ### Breakdown
 `guildID` - The server to get the data from. If this field is not inputted, the current server is used.
-
-### Possible Responses
-- SAFE
-- DEFAULT
-- EXPLICIT
-- AGE_RESTRICTED
 
 ## Example
 ```js
