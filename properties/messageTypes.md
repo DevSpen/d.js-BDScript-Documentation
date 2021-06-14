@@ -1,0 +1,21 @@
+# Message Types
+A list of all different types of Discord messages. *(resource for `$messageType`)*
+- Application Command
+- Call
+- Channel Follow Add
+- Channel Icon Change
+- Channel Name Change
+- Default
+- Guild Discovery Disqualified
+- Guild Discovery Grace Period Final Warning
+- Guild Discovery Grace Period Initial Warning
+- Guild Discovery Requalified
+- Guild Member Join
+- Pins Add
+- Recipient Add
+- Recipient Remove
+- Reply
+- User Premium Guild Subscription
+- User Premium Guild Subscription Tier 1
+- User Premium Guild Subscription Tier 2
+- User Premium Guild Subscription Tier 3
