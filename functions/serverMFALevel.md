@@ -3,6 +3,9 @@ Returns a server’s MFA level.
 
 ![image](https://user-images.githubusercontent.com/69215413/121907216-d8bb2b00-ccf9-11eb-93ff-bdb18d96d0df.png)
 
+### What are the different MFA levels?
+[PAGEURL]()
+
 ## Usage
 ```
 $serverMFALevel[(optional) guildID]
