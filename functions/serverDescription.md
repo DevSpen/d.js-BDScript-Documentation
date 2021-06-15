@@ -6,8 +6,8 @@ Returns the description of the server, if any.
 $serverDescription[(optional) guildID]
 ```
 
-## Breakdown
-`guildID` - The server to get the desciption from. Uses the current server, if none is provided.
+### Breakdown
+`guildID` - The server to get the description from. Uses the current server, if none is provided.
 
 ## Example
 ```js
