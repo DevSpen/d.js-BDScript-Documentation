@@ -4,7 +4,7 @@
 Sharding is the method in which a bot's code is 'split' into multiple instances of itself. When a bot is sharded, each shard handles only a portion of all the servers that the bot is in.
 
 ### When Is Sharding Needed?
-Sharding is usally needed when a bot hits 2,000-2,500 servers.
+Sharding is usually needed when a bot hits 2,000-2,500 servers.
 
 ### How Do I Shard With d.js-BDScript?
 You don't have to do anything, d.js-BDScript has the ability to shard automatically (when needed)! 
