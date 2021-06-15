@@ -1,5 +1,5 @@
 # $serverFeatures
-Returns the server's features.
+Returns the server's features. [(see all available server features)](https://djs-bdscript.gitbook.io/docs/properties/server-features)
 
 ## Usage
 ```
