@@ -11,22 +11,6 @@ $serverFeatures[(optional) guildID;(optional) separator]
 
 `separator` - The separator between features. Default is a comma (`, `).
 
-### Possible Features
-- Animated Icon
-- Banner
-- Commerce
-- Community
-- Discoverable
-- Featureable
-- Invite Splash
-- News
-- Partnered
-- Relay Enabled
-- Vanity URL
-- Verified
-- VIP Regions
-- Welcome Screen Enabled
-
 ## Example
 ```js
 bot.command({
