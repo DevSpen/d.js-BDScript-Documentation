@@ -9,7 +9,7 @@ $userAvatar[userID;(optional) size;(optional) dynamic (yes/no)]
 ### Breakdown
 `userID` - The user to get the avatar for.
 
-`size` - The wanted size of the avatar (e.g `1024`, `2048`, `4096`). Default is 2048.
+`size` - The wanted size of the avatar [(see image size properties)](https://djs-bdscript.gitbook.io/docs/properties/image-size-properties)
 
 `dynamic` - Whether to display the avatar as a GIF, if its animated or not. Default is `yes`.
 
