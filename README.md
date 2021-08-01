@@ -1,3 +1,5 @@
+## ⚠️ This repository has been achived and will receive no future updates. ⚠️
+
 # d.js-BDScript Documentation
 You can find the documentation [here](https://djsbdscript.gitbook.io/docs/). This GitHub reposorory is for user's of d.js-BDScript to be able to contribute to the documentation.
 
